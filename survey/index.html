@@ -27,11 +27,11 @@
 		<ul class="invisibleList">
 		<li>
 			<progress max=8 value=0>0/8</progress>
-			<div><div data-force="5" class="layer title title_xl">INFO: Welcome</div></div>
+			<div><div data-force="5" class="layer title title_xl">EDSA Survey</div></div>
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
     				<div id="google_translate_element"></div>
-				<br/><br/><br/><h2>Contribute data <span id="countryName">for </span></h2><br/>Thank-you for agreeing to contribute data to this survey.<br/><br/>This short survey should take no more than 15 minutes to complete.<br/><br/>To get started please press the next arrow to the right.<br/><br/><br/></br>
+				<br/><br/><br/><h2>Take part in the survey <span id="countryName">for </span></h2><br/>Thank-you for agreeing to contribute data to this survey.<br/><br/>This short survey should take no more than 15 minutes to complete.<br/><br/>To start the survey, click the arrow on the right hand side of the screen.<br/><br/><br/></br>
 				<div align="right">
 					Click right to continue to the next question.
 				</div>
@@ -39,12 +39,12 @@
 			</div>
 		
 		</li>
-		<li id="pickCountry">
+		<li id="Country">
 			<progress max=8 value=0>0/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Pick your country</div></div>
+			<div><div data-force="5" class="layer title title_xl">Country</div></div>
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				In order to discover trends within Europe, please pick the country for which you will be contributing data on the map below.<br/><br/>
+				Select the country you work in.<br/><br/>
 				<h2 id="mapCName">&nbsp;</h2>
 				<div id="map"></div>
 				<div align="right">
@@ -57,7 +57,7 @@
 		<li>	
 		<div id="sector" style="margin-left: 30px">
 			<progress max=8 value=1>1/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Select your sector</div></div>
+			<div><div data-force="5" class="layer title title_xl">Sector</div></div>
 
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
@@ -76,7 +76,7 @@
 		
 		<div id="orgtype" style="margin-left: 30px">
 			<progress max=8 value=1>1/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Organisation type</div></div>
+			<div><div data-force="5" class="layer title title_xl">Size of organisation</div></div>
 
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
@@ -95,11 +95,11 @@
 
 		<div id="ability" style="margin-left: 30px">
 			<progress max=8 value=2>2/8</progress>
-			<div><div data-force="5" class="layer title title_xl">INFO: Data science experience</div></div>
+			<div><div data-force="5" class="layer title title_xl">EDSA data science study</div></div>
 		
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				<p>A data scientist is defined but their capability to combine a multitude of skills, not simply be an expert in one particular area. <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">Drew Conway's Data Science venn diagram</a> (below) is currently the most widely adopted visualisation of what a data scientist is.</p>
+				<p>A data scientist is commonly defined as an individual who is able to combine multiple skills. <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram">Drew Conway's Data Science venn diagram</a> (below) is currently the most widely adopted visualisation of what a data scientist is.</p>
 				<section>
 					<div id="venn"></div>
 					<!--<img id="venn" src="img/Data_Science_VD.png" alt="Data science venn diagram"/></img>-->
@@ -107,9 +107,9 @@
 						<p>Studies[][] have revealed a skills gap in data scientists globally.</p>
 						<p><em>The aim of this suvey is to:</em></p>
 						<ul>
-							<item>Identify data science capability (skills) and capacity (ability to use those skills) in Europe</item>
+							<item>Identify current data science skills in Europe</item>
 							<item>Identify key skills gaps</item>
-							<item>Identify areas for new development of training</item>
+							<item>Identify areas for development of training</item>
 						</ul>
 					</section>
 				</section>
@@ -125,11 +125,11 @@
 		
 		<div id="ability2" style="margin-left: 30px">
 			<progress max=8 value=2>2/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Data science experience</div></div>
+			<div><div data-force="5" class="layer title title_xl">Role</div></div>
 		
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				<p><b>Select the box which best represents your relation to data science</b></p>
+				<p><b>Which of these best describes your primary role?</b></p>
 				<div class="tile__list list2" id="involvement">
 				</div>
 				<div align="right">
@@ -144,12 +144,12 @@
 
 		<div id="multi" style="margin-left: 30px">
 			<progress max=8 value=3>3/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Required skills?</div></div>
+			<div><div data-force="5" class="layer title title_xl">Which skills should a data scientist have?</div></div>
 			
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%">
-				<p><b>Rank the skills below by importance for data scientists.</b></p>
-				<p><b>Drag</b> the elements to rate their importance in your sector (either <b>essential</b>, <b>desirable</b> or <b>not required</b>). You can also <b>add</b> to each category. Please add skills in <b>all</b> categories, this help build a much better picture.</p>
+				<p><b>Considering the role of a data scientist as a single individual, how essential would you rate each of following skills for that person?</b></p>
+				<p><b>Drag</b> the elements to rate their importance (either <b>essential</b>, <b>desirable</b> or <b>not required</b>). You can also <b>add</b> to each category. Please add skills in <b>all</b> categories, this help build a much better picture.</p>
 				<p>These skills come from the work of <a href="http://drewconway.com/zia/2013/3/26/the-data-science-venn-diagram" target="_blank">Drew Conway</a> and <a href="http://www.exploringdatascience.com/the-data-science-clock/" target="_blank">Jamie Whitehorn</a>.</p>
 			</div>
 			<div class="layer tile" data-force="20">
@@ -219,10 +219,10 @@
 		
 		<div id="toolsOuter" style="margin-left: 30px">
 			<progress max=8 value=5>5/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Tools and techniques</div></div>	
+			<div><div data-force="5" class="layer title title_xl">Technologies, tools and languages</div></div>	
 			<div class="wrapper">
 			<div id="tools" class="layer tile" style="width: 83%; overflow-y: scroll; max-height: 600px;">
-			<p>Please help us identify any tools, languages and techniques that you think should be included in data science training. The section below contains a list of examples, click to add each one or feel free to add your own.</p>
+			<p>Please help us identify any technologies, tools and languages that you think should be included in data science training. The section below contains a list of examples, click to add each one or feel free to add your own.</p>
 			<ul id="toolsListeg">
 			</ul>
 			<div align="center">
@@ -240,7 +240,7 @@
 		
 		<div id="multi2" style="margin-left: 30px">
 			<progress max=8 value=6>6/8</progress>
-			<div><div data-force="5" class="layer title title_xl">Q: Training requirements</div></div>
+			<div><div data-force="5" class="layer title title_xl">Training requirements</div></div>
 
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%">
@@ -254,7 +254,7 @@
 			</div>
 			
 			<div class="layer tile" data-force="25">
-				<div class="tile__name" id="where_possible">Where possible</div>
+				<div class="tile__name" id="Where possible">Desirable</div>
 				<div class="tile__list" id="trainingNiceID">
 				</div>
 				<button id="addtrainingNiceID">Add</button>
@@ -276,7 +276,7 @@
 			<div><div data-force="5" class="layer title title_xl">Q: Comments</div></div>
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				<p>If you have any other comments relating to data science skills and requirements in your organisaiton and sector please feel free to include these below.
+				<p>If you have any other comments relating to data science skills and requirements in your organisaiton and sector please include these below.
 				<textarea id="comments" name="comments"></textarea>
 				<div align="right">
 					Click right to continue to the next question.
@@ -288,11 +288,11 @@
 			<div><div data-force="5" class="layer title title_xl">Q: Be Involved</div></div>
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				<p>Leave your name and email if you would like to be involved further about this research:</p>
+				<p>Please leave your name and email if you would like to be involved further in the EDSA data science skills research:</p>
 				<label for="name">Name</label><input type="text" name="fullname" id="fullname"></input><br/><br/>
 				<label for="email">Email</label><input type="email" name="email" id="email"></input><br/>
 				<br/></br>
-				<input type="checkbox" id="contact_research"></input>Happy to be contacted about further research.<br/><br/>
+				<input type="checkbox" id="contact_research"></input>Please contact me further about the research.<br/><br/>
 				<input type="checkbox" id="contact_results"></input>Please contact me about results of this research.<br/><br/>
 				<div align="right">
 					Click right to continue to the next question.
@@ -304,7 +304,7 @@
 			<div><div data-force="5" class="layer title title_xl">Thanks!</div></div>
 			<div class="wrapper">
 			<div class="layer tile" style="width: 83%;">
-				<br/><br/><br/><br/>Thank-you!<br/><br/>Please feel free to check your answers and then press submit when done.<br/><br/>
+				<br/><br/><br/><br/>Thank-you for taking part in the EDSA survey!<br/><br/>Please check your answers and then press submit when complete.<br/><br/>
 				<section id="doneSection">
 				<button id="submit" onClick="processForm('myForm');">Submit</button>
 				</section>
